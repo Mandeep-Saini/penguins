@@ -1,0 +1,307 @@
+body {
+    background-color: #ccf5f5;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    -webkit-animation-name: fadeIn;
+    /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+#yes {
+    background-color: #fefefe;
+    border: none;
+    color: #68afaf;
+    padding: 9px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+#no {
+    background-color: #fefefe;
+    border: none;
+    color:#68afaf;
+    padding: 9px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    background-color: #fefefe;
+    width: 50%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+   margin-left: 600px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #68afaf;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #68afaf;
+    color: white;
+}
+
+.thnks {
+    margin-left: 800px;
+}
+
+#gameholder {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    margin-left: 580px;
+    width: 600px;
+    height: 150px;
+    background-image: url('../images/penguin_title.png');
+}
+
+#btn {
+ 
+    background-color: #fefefe;
+    border: none;
+    color: #68afaf;
+    padding: 9px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 40px 800px;
+    display: none;
+}
+
+#score {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 75%;
+    border: 3px groove darkslategrey;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: darkslategrey;
+    text-shadow: 2px 2px lightgrey;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+#penguin9:hover {
+    background-image: url('../images/mound_1_hover.png');
+    cursor: pointer;
+}
+
+#penguin9:active {
+    background-image: url('../images/penguin_1.png');
+}
+
+#penguin9 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_1.png');
+}
+
+#penguin1:hover {
+    background-image: url('../images/mound_1_hover.png');
+    cursor: pointer;
+}
+
+#penguin1:active {
+    background-image: url('../images/penguin_1.png');
+}
+
+#penguin1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_1.png');
+}
+
+#penguin2:hover {
+    background-image: url('../images/mound_2_hover.png');
+    cursor: pointer;
+}
+
+#penguin2:active {
+    background-image: url('../images/penguin_2.png');
+}
+
+#penguin2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_2.png');
+}
+
+#penguin3:hover {
+    background-image: url('../images/mound_3_hover.png');
+    cursor: pointer;
+}
+
+#penguin3:active {
+    background-image: url('../images/penguin_3.png');
+}
+
+#penguin3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_3.png');
+}
+
+#penguin4:hover {
+    background-image: url('../images/mound_4_hover.png');
+    cursor: pointer;
+}
+
+#penguin4:active {
+    background-image: url('../images/penguin_4.png');
+}
+
+#penguin4 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_4.png');
+}
+
+#penguin5:hover {
+    background-image: url('../images/mound_5_hover.png');
+    cursor: pointer;
+}
+
+#penguin5:active {
+    background-image: url('../images/penguin_5.png');
+}
+
+#penguin5 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_5.png');
+}
+
+#penguin6:hover {
+    background-image: url('../images/mound_6_hover.png');
+    cursor: pointer;
+}
+
+#penguin6:active {
+    background-image: url('../images/penguin_6.png');
+}
+
+#penguin6 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_6.png');
+}
+
+#penguin7:hover {
+    background-image: url('../images/mound_7_hover.png');
+    cursor: pointer;
+}
+
+#penguin7:active {
+    background-image: url('../images/penguin_7.png');
+}
+
+#penguin7 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_7.png');
+}
+
+#penguin8:hover {
+    background-image: url('../images/mound_8_hover.png');
+    cursor: pointer;
+}
+
+#penguin8:active {
+    background-image: url('../images/penguin_8.png');
+}
+
+#penguin8 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_8.png');
+}
+
+#yeti:hover {
+    background-image: url('../images/mound_9_hover.png');
+    cursor: pointer;
+}
+
+#yeti:active {
+    background-image: url('../images/yeti.png');
+}
+
+#yeti {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_9.png');
+}
